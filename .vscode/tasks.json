@@ -1,5 +1,4 @@
 {
-
     "version": "2.0.0",
     "tasks": [
         {
@@ -8,6 +7,7 @@
             "command": "clang++",
             "args": [
                 "main.cpp",
+                "-std=c++17",
                 "-o",
                 "main",
                 "&&",

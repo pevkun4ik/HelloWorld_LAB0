@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",  // путь к исполняемому файлу
+            "args": [],                           // аргументы командной строки
+            "stopAtEntry": false,                 // остановиться в начале main
+            "cwd": "${workspaceFolder}",          // рабочая папка
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",                     // для macOS используем LLDB
+            "preLaunchTask": "build and run C++" // задача сборки из tasks.json
+        }
+    ]
+}
